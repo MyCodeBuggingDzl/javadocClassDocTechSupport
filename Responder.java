@@ -174,6 +174,11 @@ public class Responder
         return defaultResponses.get(index);
     }
     
+    /**
+     * return the map and their responses
+     * @return the response map
+     */
+    
     public HashMap<String, String> getResponseMap()
     {
         return responseMap;

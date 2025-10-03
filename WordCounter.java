@@ -40,6 +40,10 @@ public class WordCounter
             System.out.println(word + " : " + count);
         }
     }
+    /**
+     * print words not recognize
+     * @param responseMap recognize keywords form the responder class
+     */
     public void printWordsNotInResponder(HashMap<String, String> responseMap) {
     System.out.println("Words are unknown:");
     for (String word : counts.keySet()) {
