@@ -27,3 +27,10 @@ Then start describing your problem by typing in the terminal window.
 
 The purpose of this project is to demonstrate and study library classes, such 
 as ArrayList, HashMap, HashSet, and Random.
+
+
+Questions of part 3
+
+43. the putIfAbsent method writes down the value if it doesn't have a key.
+
+44. 
