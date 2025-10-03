@@ -75,5 +75,6 @@ public class SupportSystem
     {
         System.out.println("Nice talking to you. Bye...");
         counter.printWordCount();
+        counter.printWordsNotInResponder(responder.getResponseMap());
     }
 }

@@ -40,4 +40,15 @@ public class WordCounter
             System.out.println(word + " : " + count);
         }
     }
+    public void printWordsNotInResponder(HashMap<String, String> responseMap) {
+    System.out.println("Words are unknown:");
+    for (String word : counts.keySet()) {
+        if (!responseMap.containsKey(word))
+        {    
+            int count = counts.get(word);
+            System.out.println(word + " : " + count);
+        }
+    }
+    }
+
 }
